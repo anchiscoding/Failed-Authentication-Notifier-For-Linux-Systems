@@ -10,6 +10,8 @@ The bash script (failed_login_script.sh) attached to this project can be placed 
 
 the main.cf file in etc/postfix would also have to be configured as specified in the main.cf file specified in the repo, make sure to also keep sasl_passwd in the postfix directory too.
 
+[This main.cf file is formatted for the debian version, for other versions more configuration may be required]
+
 Create another file to contain the email address and it's associating app password, the format should be the same as sasl_passwd and the file's directory should be specified under the "smtp_sasl_password_maps = hash:/"  section of the main.cf 
 
 The program should be able to run as intended if setup right, incorrect setup anything as intended may cause temporary or sometimes even permanent lock outs so proceed with caution.
