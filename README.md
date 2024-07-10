@@ -8,7 +8,7 @@ the common-auth file in etc/pam.d would have to be configured to look like the c
 
 The bash script (failed_login_script.sh) attached to this project can be placed in the directory specified in common-auth or changed depending on preference. This script would also need to be an executable and preferrable to maintain the file with default permissions (chmod would be able to accomplish this). 
 
-the main.cf file in etc/postfix would also have to be configured as specified in the main.cf file specified in the project files, make sure to also keep sasl_passwd in the postfix directory too.
+the main.cf file in etc/postfix would also have to be configured as specified in the main.cf file specified in the repo, make sure to also keep sasl_passwd in the postfix directory too.
 
 Create another file to contain the email address and it's associating app password, the format should be the same as sasl_passwd and the file's directory should be specified under the "smtp_sasl_password_maps = hash:/"  section of the main.cf 
 
