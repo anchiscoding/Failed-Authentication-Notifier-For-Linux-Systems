@@ -5,7 +5,7 @@ This is a simple project that allows linux users that use PAM to configure authe
 This script automates emails to be sent out to a specified email using postfix and mutt. [This program is configured to send out emails using gmail's SMTP server over port 587 but it can be edited to relay emails to other SMTP servers] [The sasl_passwd file will have the gmail email address and the app password you'd be able to obtain from myaccount.google.com/apppasswords]
 [The postfix startup configuration wouldn't mean anything if you set the main.cf file to be as specified in the repositories]
  
-the common-auth file in etc/pam.d would have to be configured to look like the common-auth file as specified in the project files.
+the common-auth file in etc/pam.d would have to be configured to look like the common-auth file as specified in the repo.
 
 The bash script (failed_login_script.sh) attached to this project can be placed in the directory specified in common-auth or changed depending on preference. This script would also need to be an executable and preferrable to maintain the file with default permissions (chmod would be able to accomplish this). 
 
