@@ -14,7 +14,7 @@ the main.cf file in etc/postfix would also have to be configured as specified in
 [This main.cf file is formatted for the debian version, for other versions more configuration may be required]
 Create another file to contain the email address and it's associating app password, the format should be the same as sasl_passwd and the file's directory should be specified under the "smtp_sasl_password_maps = hash:/"  section of the main.cf 
 
-The program should be able to run as intended if setup right, incorrect setup anything as intended may cause temporary or sometimes even permanent lock outs so proceed with caution.
+The program should be able to run as intended if setup right, incorrect setup of anything may cause temporary or sometimes even permanent lock outs so proceed with caution.
 
 Known Bugs and Issues:
 - There may be times where the code will execute more than once and not when it's on a login screen but on the lock screen when there's no authentication in process
