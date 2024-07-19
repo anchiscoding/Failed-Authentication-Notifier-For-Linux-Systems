@@ -22,3 +22,4 @@ The program should be able to run as intended if setup right, incorrect setup of
 Known Bugs and Issues:
 - There may be times where the code will execute more than once and not when it's on a login screen but on the lock screen when there's no authentication in process
 - If there is a failed attempt on bootup, it would not be able to push out an email if the computer isn't configured to connect to the internet on startup and hence the script will fail
+- if you have an open SSH port, you would need to close it or keep it on filtered in the case where it could be exploited to spam emails to your inbox 
