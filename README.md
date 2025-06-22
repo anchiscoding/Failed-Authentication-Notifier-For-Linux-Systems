@@ -2,7 +2,6 @@
 
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
 ![Status](https://img.shields.io/badge/status-Active-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 A lightweight PAM-based utility for Linux systems that captures failed authentication attempts by:
 
