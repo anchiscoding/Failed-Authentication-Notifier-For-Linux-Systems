@@ -48,8 +48,8 @@ This project relies entirely on widely used, open-source Linux tools and subsyst
 * **mutt**
   A lightweight command-line mail client used to construct and send email messages from within the script.
 
-* **Linux Video4Linux (v4l2)**
-  Used indirectly for webcam access and image capture via standard Linux webcam utilities.
+* **fswebcam**
+  A lightweight command-line webcam utility used to capture images from the system’s default webcam during failed authentication attempts. fswebcam interfaces with the webcam device directly and is well-suited for scripting and non-interactive use cases.
 
 All tools used are standard on most Debian-based Linux distributions or are available via official package repositories.
 
